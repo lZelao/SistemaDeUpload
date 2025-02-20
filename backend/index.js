@@ -127,4 +127,4 @@ app.get('/api/search', async (req, res) => {
 // Servir arquivos enviados
 app.use('/uploads', express.static('uploads'));
 
-app.listen(3000, () => console.log('Backend rodando em http://localhost:3000'));
+app.listen(3001, () => console.log('Backend rodando em http://localhost:3001'));
