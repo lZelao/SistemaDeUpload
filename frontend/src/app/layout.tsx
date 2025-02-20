@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Documentos\Gestão de Documentos",
+  title: "Gestão de Documentos",
   description: "universafaveniedu",
 };
 
