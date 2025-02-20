@@ -24,7 +24,7 @@ const Search = () => {
     try {
       // Fazendo a requisição para a API
       const response = await fetch(
-        `http://localhost:3000/api/search?cpf=${documento}&key=${chave}`
+        `http://localhost:3001/api/search?cpf=${documento}&key=${chave}`
       );
 
       const data = await response.json();
