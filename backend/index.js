@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: 'http://localhost:3001', // Substitua pela URL do seu frontend
+    origin: 'http://localhost:3000', // Substitua pela URL do seu frontend
     methods: ['GET', 'POST'],
   })
 );
