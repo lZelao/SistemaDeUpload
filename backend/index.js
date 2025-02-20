@@ -116,7 +116,7 @@ app.get('/api/search', async (req, res) => {
         dataEmissao: document.dataEmissao,
         curso: document.curso,
         instituicao: document.instituicao,
-        url: `http://localhost:3000/uploads/${document.file}`, // URL para baixar o arquivo
+        url: `http://localhost:3001/uploads/${document.file}`, // URL para baixar o arquivo
       },
     });
   } else {
